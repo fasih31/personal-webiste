@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="app">
+      <a className="skip-link" href="#main-content">Skip to main content</a>
       <Router>
         <ScrollToTop/>
         <Switch>

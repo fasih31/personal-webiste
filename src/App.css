@@ -4,3 +4,70 @@
     /* --primaryFont: 'Raleway', sans-serif; */
 }
 
+/* Modern Visual Enhancements */
+.landing--img-enhanced:hover {
+    transform: scale(1.05) rotate(2deg);
+    filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.4)) brightness(1.1);
+}
+
+/* Glassmorphism Button Effects */
+.glassmorphism {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.glassmorphism-dark {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Smooth animations for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Enhanced focus indicators for accessibility */
+*:focus-visible {
+    outline: 3px solid #4f46e5;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #000;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 9999;
+    border-radius: 4px;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* Performance optimized images */
+.optimized-image {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.optimized-image:hover {
+    transform: scale(1.02);
+}
+
