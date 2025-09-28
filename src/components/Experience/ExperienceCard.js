@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
-import expImgWhite from '../../assets/svg/experience/expImgWhite.svg'
-import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
+import expImgWhite from '../../assests/svg/experience/expImgWhite.svg'
+import expImgBlack from '../../assests/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
 

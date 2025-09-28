@@ -1,5 +1,5 @@
-import resume from '../assets/pdf/resume.pdf'
-import fasih from '../assets/png/fasih.webp'
+import resume from '../assests/pdf/resume.pdf'
+import fasih from '../assests/png/fasih.webp'
 
 
 export const headerData = {
