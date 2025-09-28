@@ -4,8 +4,8 @@ import fasih from '../assests/png/fasih.webp'
 
 export const headerData = {
     name: 'Fasih ur Rehman',
-    title: "Techpreneur",
-    desciption:"Welcome to my dynamic portfolio website! Here, I Fasih ur Rehman proudly display my skills, experiences, and passions in an engaging and interactive format. Whether you're curious about me or seeking the perfect collaborator, I invite you to explore my pages and see what I can offer. Let's create something extraordinary together. Thank you for visiting!",
+    title: "Product Development Manager & Fintech Expert",
+    desciption:"Welcome to my portfolio! I'm Fasih ur Rehman, an expert Product Development Manager and Project Manager specializing in Islamic Banking, Fintech, and Islamic Fintech solutions. With deep expertise in Blockchain technology and Islamic Cryptocurrency development, I lead digital transformation in Shariah-compliant financial technologies. Whether you're looking for innovative fintech solutions or collaborative partnerships in Islamic banking, explore my projects and experience in creating cutting-edge financial technology products.",
     image: fasih,
     resumePdf: resume
 }
